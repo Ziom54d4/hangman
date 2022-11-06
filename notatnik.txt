@@ -229,3 +229,74 @@ consol logi na koniec były w linijkach 46 i 64:
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1140px) {
+    #haslo {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #buzki img {
+        width: 150px;
+    }
+
+    #haslo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #haslo {
+        font-size: 16px;
+        letter-spacing: 5px;
+        word-spacing: 0;
+        border: 3px solid black;
+    }
+
+    #kategoria {
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 17px;
+    }
+
+    #litery {
+        margin-top: 10px;
+    }
+
+    #litery button {
+        width: 30px;
+        height: 30px;
+        margin: 5px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #buzki img {
+        padding: 10px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #buzki img {
+        width: 65px;
+    }
+
+    #haslo {
+        width: 75%;
+        letter-spacing: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #litery button {
+        width: 25px;
+        height: 25px;
+        margin: 3px;
+    }
+}
