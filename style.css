@@ -1,0 +1,67 @@
+#buzki {
+    text-align: center;
+}
+
+#buzki img {
+    padding: 20px;
+    width: 200px;
+}
+
+#haslo {
+    border: 7px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: monospace;
+    font-size: 45px;
+    word-spacing: 5px;
+}
+
+#kategoria {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+#litery {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#litery button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#rezultat {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+#odswiezenie {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#odswiezenie button {
+    padding: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
