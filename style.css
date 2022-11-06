@@ -56,6 +56,7 @@
 #odswiezenie {
     margin-top: 0px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #odswiezenie button {
@@ -79,6 +80,10 @@
 
     #haslo {
         font-size: 20px;
+    }
+
+    #rezultat {
+        font-size: 30px;
     }
 }
 
@@ -105,12 +110,20 @@
         height: 30px;
         margin: 5px; 
     }
+
+    #rezultat {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     #buzki img {
         padding: 10px;
         width: 90px;
+    }
+
+    #rezultat {
+        font-size: 16px;
     }
 }
 
@@ -127,6 +140,11 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    #rezultat {
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
 }
 
 @media screen and (max-width: 330px) {
@@ -134,5 +152,15 @@
         width: 25px;
         height: 25px;
         margin: 3px;
+    }
+
+    #rezultat {
+        font-size: 14px;
+    }
+
+    #odswiezenie button {
+        padding: 8px;
+        letter-spacing: 2px;
+        word-spacing: 1px;
     }
 }
